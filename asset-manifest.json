@@ -1,0 +1,37 @@
+{
+  "files": {
+    "Login.css": "/homework-react.js-8-Phonebook-Hook/static/css/Login.c9f0792f.chunk.css",
+    "Login.js": "/homework-react.js-8-Phonebook-Hook/static/js/Login.109bbd19.chunk.js",
+    "Login.js.map": "/homework-react.js-8-Phonebook-Hook/static/js/Login.109bbd19.chunk.js.map",
+    "Registration.css": "/homework-react.js-8-Phonebook-Hook/static/css/Registration.bee16719.chunk.css",
+    "Registration.js": "/homework-react.js-8-Phonebook-Hook/static/js/Registration.bb368542.chunk.js",
+    "Registration.js.map": "/homework-react.js-8-Phonebook-Hook/static/js/Registration.bb368542.chunk.js.map",
+    "main.css": "/homework-react.js-8-Phonebook-Hook/static/css/main.273830d7.chunk.css",
+    "main.js": "/homework-react.js-8-Phonebook-Hook/static/js/main.f5b331d3.chunk.js",
+    "main.js.map": "/homework-react.js-8-Phonebook-Hook/static/js/main.f5b331d3.chunk.js.map",
+    "runtime-main.js": "/homework-react.js-8-Phonebook-Hook/static/js/runtime-main.9f387f4f.js",
+    "runtime-main.js.map": "/homework-react.js-8-Phonebook-Hook/static/js/runtime-main.9f387f4f.js.map",
+    "static/css/4.6e70657d.chunk.css": "/homework-react.js-8-Phonebook-Hook/static/css/4.6e70657d.chunk.css",
+    "static/js/4.b624d59c.chunk.js": "/homework-react.js-8-Phonebook-Hook/static/js/4.b624d59c.chunk.js",
+    "static/js/4.b624d59c.chunk.js.map": "/homework-react.js-8-Phonebook-Hook/static/js/4.b624d59c.chunk.js.map",
+    "static/css/5.548fd300.chunk.css": "/homework-react.js-8-Phonebook-Hook/static/css/5.548fd300.chunk.css",
+    "static/js/5.4a795421.chunk.js": "/homework-react.js-8-Phonebook-Hook/static/js/5.4a795421.chunk.js",
+    "static/js/5.4a795421.chunk.js.map": "/homework-react.js-8-Phonebook-Hook/static/js/5.4a795421.chunk.js.map",
+    "static/js/6.73cf1ad5.chunk.js": "/homework-react.js-8-Phonebook-Hook/static/js/6.73cf1ad5.chunk.js",
+    "static/js/6.73cf1ad5.chunk.js.map": "/homework-react.js-8-Phonebook-Hook/static/js/6.73cf1ad5.chunk.js.map",
+    "index.html": "/homework-react.js-8-Phonebook-Hook/index.html",
+    "static/css/4.6e70657d.chunk.css.map": "/homework-react.js-8-Phonebook-Hook/static/css/4.6e70657d.chunk.css.map",
+    "static/css/5.548fd300.chunk.css.map": "/homework-react.js-8-Phonebook-Hook/static/css/5.548fd300.chunk.css.map",
+    "static/css/Login.c9f0792f.chunk.css.map": "/homework-react.js-8-Phonebook-Hook/static/css/Login.c9f0792f.chunk.css.map",
+    "static/css/Registration.bee16719.chunk.css.map": "/homework-react.js-8-Phonebook-Hook/static/css/Registration.bee16719.chunk.css.map",
+    "static/css/main.273830d7.chunk.css.map": "/homework-react.js-8-Phonebook-Hook/static/css/main.273830d7.chunk.css.map",
+    "static/js/4.b624d59c.chunk.js.LICENSE.txt": "/homework-react.js-8-Phonebook-Hook/static/js/4.b624d59c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f387f4f.js",
+    "static/css/4.6e70657d.chunk.css",
+    "static/js/4.b624d59c.chunk.js",
+    "static/css/main.273830d7.chunk.css",
+    "static/js/main.f5b331d3.chunk.js"
+  ]
+}
