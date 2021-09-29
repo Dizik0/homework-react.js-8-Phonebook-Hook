@@ -1,8 +1,8 @@
 {
-  "name": "homework-react.js-7",
+  "name": "homework-react.js-8",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Dizik0.github.io/homework-react.js-7",
+  "homepage": "https://Dizik0.github.io/homework-react.js-8-Phonebook-Hook",
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.1",
     "@testing-library/jest-dom": "^5.14.1",
