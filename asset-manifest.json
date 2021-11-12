@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/homework-react.js-8-Phonebook-Hook/static/css/main.c9e2ed3c.chunk.css",
-    "main.js": "/homework-react.js-8-Phonebook-Hook/static/js/main.03ba5942.chunk.js",
-    "main.js.map": "/homework-react.js-8-Phonebook-Hook/static/js/main.03ba5942.chunk.js.map",
+    "main.css": "/homework-react.js-8-Phonebook-Hook/static/css/main.38cd5213.chunk.css",
+    "main.js": "/homework-react.js-8-Phonebook-Hook/static/js/main.e44686b5.chunk.js",
+    "main.js.map": "/homework-react.js-8-Phonebook-Hook/static/js/main.e44686b5.chunk.js.map",
     "runtime-main.js": "/homework-react.js-8-Phonebook-Hook/static/js/runtime-main.ce1c7c73.js",
     "runtime-main.js.map": "/homework-react.js-8-Phonebook-Hook/static/js/runtime-main.ce1c7c73.js.map",
     "static/css/2.6e70657d.chunk.css": "/homework-react.js-8-Phonebook-Hook/static/css/2.6e70657d.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.d85b4da4.chunk.js.map": "/homework-react.js-8-Phonebook-Hook/static/js/3.d85b4da4.chunk.js.map",
     "index.html": "/homework-react.js-8-Phonebook-Hook/index.html",
     "static/css/2.6e70657d.chunk.css.map": "/homework-react.js-8-Phonebook-Hook/static/css/2.6e70657d.chunk.css.map",
-    "static/css/main.c9e2ed3c.chunk.css.map": "/homework-react.js-8-Phonebook-Hook/static/css/main.c9e2ed3c.chunk.css.map",
+    "static/css/main.38cd5213.chunk.css.map": "/homework-react.js-8-Phonebook-Hook/static/css/main.38cd5213.chunk.css.map",
     "static/js/2.f6b0fa4e.chunk.js.LICENSE.txt": "/homework-react.js-8-Phonebook-Hook/static/js/2.f6b0fa4e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ce1c7c73.js",
     "static/css/2.6e70657d.chunk.css",
     "static/js/2.f6b0fa4e.chunk.js",
-    "static/css/main.c9e2ed3c.chunk.css",
-    "static/js/main.03ba5942.chunk.js"
+    "static/css/main.38cd5213.chunk.css",
+    "static/js/main.e44686b5.chunk.js"
   ]
 }
