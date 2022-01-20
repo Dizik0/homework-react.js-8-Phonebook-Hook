@@ -1,9 +1,9 @@
-import { connect } from "react-redux";
+import { connect } from 'react-redux'
 // import { DidNotEnter } from "./DidNotEnter";
-import HasEntered from "./HasEntered";
-import { authorized } from "../../redux/authorization/authorization-selectors";
-import { NavLink } from "react-router-dom";
-import style from "./header.module.scss";
+import HasEntered from './HasEntered'
+import { authorized } from '../../redux/authorization/authorization-selectors'
+import { NavLink } from 'react-router-dom'
+import style from './header.module.scss'
 
 const Header = ({ authorized }) => {
   return (
@@ -14,7 +14,7 @@ const Header = ({ authorized }) => {
         <ul className={style.BoxLoginRegistration}>
           <li>
             <NavLink
-              to={"/Registration"}
+              to={'/Registration'}
               activeClassName={style.active}
               className={style.LoginRegistration}
             >
@@ -23,7 +23,7 @@ const Header = ({ authorized }) => {
           </li>
           <li>
             <NavLink
-              to={"/Login"}
+              to={'/Login'}
               activeClassName={style.active}
               className={style.LoginRegistration}
             >
@@ -33,10 +33,10 @@ const Header = ({ authorized }) => {
         </ul>
       )}
     </>
-  );
-};
+  )
+}
 
 const mapStateToProps = (state) => ({
   authorized: authorized(state),
-});
-export default connect(mapStateToProps)(Header);
+})
+export default connect(mapStateToProps)(Header)

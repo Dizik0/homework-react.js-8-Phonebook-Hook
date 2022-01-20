@@ -1,20 +1,20 @@
-import "./App.css";
-import { PhoneBook } from "./Components/PhoneBook";
-import Registration from "./Components/Route/Registration";
-import Login from "./Components/Route/Login";
-import { connect } from "react-redux";
-import { getCurrentUser } from "./redux/authorization/authorization-opetations";
-import PrivateRoute from "./Components/Route/PrivateRoute";
-import PublicRoute from "./Components/Route/PublicRoute";
+import './App.css'
+import { PhoneBook } from './Components/PhoneBook'
+import Registration from './Components/Route/Registration'
+import Login from './Components/Route/Login'
+import { connect } from 'react-redux'
+import { getCurrentUser } from './redux/authorization/authorization-opetations'
+import PrivateRoute from './Components/Route/PrivateRoute'
+import PublicRoute from './Components/Route/PublicRoute'
 
-import { useEffect } from "react";
-import Header from "./Components/Header/Header";
-import { Switch } from "react-router-dom";
-import { loading } from "./redux/authorization/authorization-selectors";
-import { Preloader } from "./Components/Preloader/";
+import { useEffect } from 'react'
+import Header from './Components/Header/Header'
+import { Switch, Redirect } from 'react-router-dom'
+import { loading } from './redux/authorization/authorization-selectors'
+import { Preloader } from './Components/Preloader/'
 
 export const App = ({ logger, onGetCurrentUser }) => {
-  useEffect(() => onGetCurrentUser(), [onGetCurrentUser]);
+  useEffect(() => onGetCurrentUser(), [onGetCurrentUser])
 
   return (
     <>
@@ -36,10 +36,11 @@ export const App = ({ logger, onGetCurrentUser }) => {
           restricted
           component={Login}
         />
+        <Redirect to="/login" />
       </Switch>
     </>
-  );
-};
+  )
+}
 
 // class App extends Component {
 //   componentDidMount() {
@@ -75,10 +76,10 @@ export const App = ({ logger, onGetCurrentUser }) => {
 
 const mapDispatchToProps = {
   onGetCurrentUser: getCurrentUser,
-};
+}
 
 const mapStateToProps = (state) => ({
   logger: loading(state),
-});
+})
 
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(App)

@@ -1,53 +1,53 @@
-import { useState } from "react";
-import PropTypes from "prop-types";
-import style from "./AddContact.module.scss";
+import { useState } from 'react'
+import PropTypes from 'prop-types'
+import style from './AddContact.module.scss'
 
-import { connect } from "react-redux";
-import { addContact } from "../../redux/contact/contact-opetations";
-import { getContacts } from "../../redux/contact/contact-selectors";
+import { connect } from 'react-redux'
+import { addContact } from '../../redux/contact/contact-opetations'
+import { getContacts } from '../../redux/contact/contact-selectors'
 
-import "@pnotify/core/dist/BrightTheme.css";
-import { notice } from "@pnotify/core";
-import "@pnotify/core/dist/PNotify.css";
+import '@pnotify/core/dist/BrightTheme.css'
+import { notice } from '@pnotify/core'
+import '@pnotify/core/dist/PNotify.css'
 
 const AddContact = ({ contacts, stateTransfer, uuidv4 }) => {
-  const [userName, SetName] = useState("");
-  const [number, SetNumber] = useState("");
+  const [userName, SetName] = useState('')
+  const [number, SetNumber] = useState('')
 
   const alerError = () => {
     return contacts.items.find(({ name }) => {
-      return name === userName;
-    });
-  };
+      return name === userName
+    })
+  }
 
   const submitformContact = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
     if (alerError()) {
-      notice({ text: `${userName} is alreaady in contacts` });
-      return;
+      notice({ text: `${userName} is alreaady in contacts` })
+      return
     }
-    stateTransfer({ number, name: userName });
+    stateTransfer({ number, name: userName })
 
-    SetName("");
-    SetNumber("");
-  };
+    SetName('')
+    SetNumber('')
+  }
 
   const addContact = (e) => {
-    const { value, name } = e.currentTarget;
+    const { value, name } = e.currentTarget
 
     switch (name) {
-      case "name":
-        SetName(value);
-        break;
-      case "number":
-        SetNumber(value);
-        break;
+      case 'name':
+        SetName(value)
+        break
+      case 'number':
+        SetNumber(value)
+        break
 
       default:
-        console.log("error");
+        console.log('error')
     }
-  };
+  }
 
   return (
     <form
@@ -85,8 +85,8 @@ const AddContact = ({ contacts, stateTransfer, uuidv4 }) => {
         </button>
       </div>
     </form>
-  );
-};
+  )
+}
 
 // class AddContact extends Component {
 //   state = {
@@ -166,17 +166,17 @@ AddContact.propTypes = {
   userName: PropTypes.string,
   number: PropTypes.number,
   stateTransfer: PropTypes.func,
-};
+}
 AddContact.defaultProps = {
   contacts: [],
-};
+}
 
 const mapStateToProps = (state) => ({
   contacts: getContacts(state),
-});
+})
 
 const mapDispatchToProps = (dispatch) => ({
   stateTransfer: (value) => dispatch(addContact(value)),
-});
+})
 
-export default connect(mapStateToProps, mapDispatchToProps)(AddContact);
+export default connect(mapStateToProps, mapDispatchToProps)(AddContact)

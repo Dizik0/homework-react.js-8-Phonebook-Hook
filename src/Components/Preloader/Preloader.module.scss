@@ -5,6 +5,7 @@
   margin-right: -50%;
   transform: translate(-50%, -50%);
   width: 80px;
+  z-index: 99;
   height: 80px;
 }
 .Preloader div {
@@ -12,7 +13,7 @@
   animation: Preloader 1.2s linear infinite;
 }
 .Preloader div:after {
-  content: " ";
+  content: ' ';
   display: block;
   position: absolute;
   top: 3px;
